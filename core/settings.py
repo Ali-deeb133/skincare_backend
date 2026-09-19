@@ -210,7 +210,7 @@ DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 AUTH_USER_MODEL = 'accounts.User'
 
 ALLOWED_HOSTS = [
-    'skincare-backend-tw9k.onrender.com',  
+    'skincare-backend-2str.onrender.com',  
     'localhost',
     '127.0.0.1',
 ]
@@ -299,7 +299,7 @@ ROOT_URLCONF = 'core.urls'
 
 # CORS — حدد الأصول المسموحة بدل السماح للكل
 CORS_ALLOWED_ORIGINS = [
-    "https://skincare-frontend-tw9k.onrender.com",
+    "https://skincare-frontend-2str.onrender.com",
     "http://localhost:5173",
     "http://localhost:3000",
     "http://127.0.0.1:5173",
